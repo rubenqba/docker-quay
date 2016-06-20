@@ -12,5 +12,5 @@ RUN apk --no-cache add wget ca-certificates && \
 #    /usr/glibc/usr/bin/ldconfig /lib /usr/glibc/usr/lib && \
 #    rm /tmp/*.apk
 
-RUN apk add --update curl ca-certificates glibc 
-    /usr/glibc/usr/bin/ldconfig /lib /usr/glibc/usr/lib
+# RUN apk add --update curl ca-certificates glibc 
+#     /usr/glibc/usr/bin/ldconfig /lib /usr/glibc/usr/lib
