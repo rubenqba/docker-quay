@@ -1,0 +1,2 @@
+FROM sameersbn/gitlab-ci
+
