@@ -1,3 +1,3 @@
-FROM sonarqube
+FROM sonarqube:5.6-alpine
 
 
